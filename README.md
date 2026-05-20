@@ -70,4 +70,26 @@ Total records: 10
 Valid records: 7
 Invalid records: 3
 Warning records: 3
+
+Averages for Valid Records
+--------------------------
+Average altitude: 24842.86 ft
+Average airspeed: 535.71 knots
+Average engine temperature: 705.00 C
+
+Invalid Record Details
+----------------------
+Timestamp: 2026-05-01T10:00:10Z
+Aircraft ID: AC001
+- Invalid altitude: altitude cannot be negative
+
+Timestamp: 2026-05-01T10:00:20Z
+Aircraft ID: AC001
+- Invalid heading: heading must be between 0 and 359 degrees
+
+Timestamp: 2026-05-01T10:00:35Z
+Aircraft ID: AC002
+- Invalid engine temperature: temperature cannot be negative
+
+
 ````
