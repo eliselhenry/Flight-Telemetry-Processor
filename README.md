@@ -23,27 +23,6 @@ My Flight Telemetry Processor is a C++ command-line application that parses, val
 - File I/O
 - CSV Parsing
 
-## Project Structure
-
-```text
-flight-telemetry-processor/
-├── README.md
-├── Makefile
-├── data/
-│   └── telemetry.csv
-├── output/
-├── include/
-│   ├── TelemetryRecord.h
-│   ├── TelemetryParser.h
-│   ├── TelemetryValidator.h
-│   └── ReportGenerator.h
-└── src/
-    ├── main.cpp
-    ├── TelemetryRecord.cpp
-    ├── TelemetryParser.cpp
-    ├── TelemetryValidator.cpp
-    └── ReportGenerator.cpp
-````
 ## Build Instructions
 ```text
 make
@@ -90,6 +69,4 @@ Aircraft ID: AC001
 Timestamp: 2026-05-01T10:00:35Z
 Aircraft ID: AC002
 - Invalid engine temperature: temperature cannot be negative
-
-
 ````
